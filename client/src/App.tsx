@@ -1,7 +1,7 @@
 import { Switch, Route } from "wouter";
 import { QueryClientProvider } from "@tanstack/react-query";
 import { http, createConfig, WagmiProvider } from 'wagmi';
-import { goerli, avalancheFuji } from 'viem/chains';
+import { sepolia, avalancheFuji } from 'viem/chains';
 import { injected } from 'wagmi/connectors';
 import { queryClient } from "./lib/queryClient";
 import { Toaster } from "@/components/ui/toaster";
@@ -9,9 +9,9 @@ import NotFound from "@/pages/not-found";
 import Home from "@/pages/home";
 
 const config = createConfig({
-  chains: [goerli, avalancheFuji],
+  chains: [sepolia, avalancheFuji],
   transports: {
-    [goerli.id]: http(),
+    [sepolia.id]: http(),
     [avalancheFuji.id]: http(),
   },
   connectors: [

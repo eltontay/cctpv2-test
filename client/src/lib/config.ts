@@ -1,11 +1,11 @@
 export const CHAIN_CONFIG = {
   ethereum: {
-    id: 5, // Goerli
+    id: 11155111, // Sepolia
     name: "Ethereum",
     domain: 0,
-    tokenMessenger: "0x9f3B8679c73C2Fef8b59B4f3444d4e156fb70AA5",
-    messageTransmitter: "0x26413e8157CD32011E726065a5462e97dD4d03D9",
-    usdc: "0x07865c6e87b9f70255377e024ace6630c1eaa37f",
+    tokenMessenger: "0x1a9695e9dbdb443f0b8bb7626a7bf4421c22e594",
+    messageTransmitter: "0x7865c6E87B9F70255377e024ace6630C1Eaa37F9",
+    usdc: "0x1c7d4b196cb0c7b01d743fbc6116a902379c7238",
   },
   avalanche: { 
     id: 43113, // Fuji
