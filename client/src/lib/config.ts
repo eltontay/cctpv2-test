@@ -1,7 +1,7 @@
 export const CHAIN_CONFIG = {
   ethereum: {
     id: 11155111, // Sepolia
-    name: "Ethereum",
+    name: "Ethereum Sepolia",
     domain: 0,
     tokenMessenger: "0x1a9695e9dbdb443f0b8bb7626a7bf4421c22e594",
     messageTransmitter: "0x7865c6E87B9F70255377e024ace6630C1Eaa37F9",
@@ -9,7 +9,7 @@ export const CHAIN_CONFIG = {
   },
   avalanche: { 
     id: 43113, // Fuji
-    name: "Avalanche",
+    name: "Avalanche Fuji",
     domain: 1,
     tokenMessenger: "0xeb08f243e5d3fcff26a9e38ae5520a669f4019d0",
     messageTransmitter: "0xa9fb1b3009dcb79e2fe346c16a604b8fa8ae0a79",
